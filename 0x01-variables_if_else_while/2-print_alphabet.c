@@ -4,6 +4,7 @@
 /**
  * main - main block
  * Description: print out lowercase alphabet
+ * Return: 0 
  */
 int main(void)
 {
