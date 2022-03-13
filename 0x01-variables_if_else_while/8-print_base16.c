@@ -1,23 +1,28 @@
 #include <stdio.h>
-
-
 /**
- * main - Entry point
- * Return:0
- */
+*main - entry point, print the alphabets
+*with only two putchar()s
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int i, y;
-	for (i = 0; i < 10; i++)
-	{
-		putchar (i + '0');
-	}
-	for (y = 'a'; y <= 'f'; y++)
-	{
-		putchar (y);
-	}
+	int i = '0';
+	int j;
 
-putchar('\n');
-return (0);
+	while (i <= '9')
+	{
+		putchar(i);
+		i++;
+	}
+	j = 97;
+
+	while (j < 103)
+	{
+		putchar(j);
+		j++;
+	}
+	putchar('\n');
+	return (0);
 }
 
