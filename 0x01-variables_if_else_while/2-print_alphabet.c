@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: print out lowercase alphabet. 
- * Return: 0 
+ * Description: print lowercase alphabets from a to z. 
+ * Return: 0
  */
 int main(void)
 {
@@ -17,4 +17,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-} 
+}
