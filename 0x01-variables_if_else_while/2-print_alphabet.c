@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - main block
- * Description: print out lowercase alphabet
+ * Description: print out lowercase alphabet. 
  * Return: 0 
  */
 int main(void)
@@ -18,5 +17,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-}
-
+} 
