@@ -1,35 +1,34 @@
- (32 sloc)  415 Bytes
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - entry point, prints all possible
- * combinations of two digits
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
+ * Return: 0
  */
 int main(void)
 {
-	int i = '0';
-	int j;
+	int c;
+	int d = 0;
 
-	while (i <= '9')
+	while (d < 10)
 	{
-		j = '0';
-		while (j <= '9')
+		c = 0;
+		while (c < 10)
 		{
-			if (i < j)
+
+			putchar('0' + d);
+			putchar('0' + c);
+
+			if (c + d != 18)
 			{
-				putchar(i);
-				putchar(j);
-				if (i == '8' && j == '9')
-					break;
 				putchar(',');
 				putchar(' ');
 			}
-			j++;
+			c++;
 		}
-		i++;
+		d++;
 	}
 	putchar('\n');
 	return (0);
 }
-
