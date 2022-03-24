@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h" 
 
 /**
  * print_alphabet - prints the english alphabet from a to z.
@@ -6,6 +6,7 @@
  * Return: nothing.
  */
 
+int main(void)
 void print_alphabet(void)
 {
 	char c = 'a';
