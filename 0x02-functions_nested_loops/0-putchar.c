@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * main - Function main entry
  *
@@ -8,7 +7,6 @@
  *
  * Return: always 0 (success)
  */
-
 int main(void)
 {
 	char s[9] = "_putchar";
@@ -20,6 +18,5 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-
 	return (0);
 } 
