@@ -8,6 +8,7 @@
  */
 
 void print_all(const char * const format, ...)
+
 {
 	fp fmt[] = {
 		{'c', print_char},
